@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Por favor completa los campos para realizar tu pedido.</h1>
+    <form action="pedido.js">
+        <li>Selecciona tamano del pastel</li>
+        <label for="Chico">Chico</label>
+        <input type="radio" name="tamano" id="chico" value="Chico">
+        <label for="Mediano">Mediano</label>
+        <input type="radio" name="tamano" id="mediano" value="Mediano">
+        <label for="Grande">Grande</label>
+        <input type="radio" name="tamano" id="grande" value="Grande">
+        <br><br>
+        <li>Seleciona el sabor del pastel (Puedes combinar sabores)</li>
+        <input type="checkbox" name="sabor" id="mango">
+        <label for="mango">Sol</label>
+        <br>
+        <input type="checkbox" name="sabor" id="fresa">
+        <label for="fresa">Explosion</label>
+        <br>
+        <input type="checkbox" name="sabor" id="chocolate">
+        <label for="chocolate">Asteroide</label>
+        <br>
+        <input type="checkbox" name="sabor" id="kiwi">
+        <label for="kiwi">Nebulosa</label>
+        <br>
+        <input type="checkbox" name="sabor" id="nuez">
+        <label for="nuez">Polvo de estrellas</label>
+        <br>
+        <input type="checkbox" name="sabor" id="cafe">
+        <label for="cafe">Estrella fugaz</label>
+        <br><br>
+        <li>Seleciona la cubierta del pastel (Puedes combinar sabores)</li>
+        <input type="checkbox" name="sabor" id="sistemasolar">
+        <label for="sistemasolar">Sistema solar</label>
+        <br>
+        <input type="checkbox" name="sabor" id="galaxia">
+        <label for="galaxia">Galaxia</label>
+        <br>
+        <input type="checkbox" name="sabor" id="asteroide">
+        <label for="asteroide">Asteroide</label>
+        <br>
+        <input type="checkbox" name="sabor" id="estrella">
+        <label for="estrella">Estrella</label>
+        <br>
+        <input type="checkbox" name="sabor" id="anillo">
+        <label for="anillo">Anillo</label>
+        <br>
+        <input type="checkbox" name="sabor" id="planeta">
+        <label for="planeta">Planeta</label>
+        <br><br>
+
+        <li>Ingresa tu nombre.</li>
+        <input type="text" name="name" id="name" placeholder="Nombre" maxlength="25">
+        <br><br>
+        <li>Ingresa tu numero telefonico</li>
+        <input type="tel" name="Telefono" id="Telefono" maxlength="10" placeholder="Numero telefonico">
+        <br><br>
+        <li>Ingresa tu correo</li>
+        <input type="email" name="Correo" id="Correo" placeholder="Correo">
+        <br><br>
+        <li>Descripcion o notas del pastel</li>
+        <input type="text" name="Notas" id="Notas" placeholder="Notas del pastel" maxlength="50">
+
+        <br><br>
+        <input type="submit" value="Enviar">
+        <br>
+    </form>
+    
+</body>
+</html>
